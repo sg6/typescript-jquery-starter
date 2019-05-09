@@ -18,6 +18,7 @@ It should just give an idea, how easy it is to write even extremely small apps i
 # Let's Get Ready
 
 `npm i`
+
 `npm run start:local`
 
 --> Go to http://localhost:8080
