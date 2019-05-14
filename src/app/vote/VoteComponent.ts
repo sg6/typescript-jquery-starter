@@ -7,6 +7,7 @@ export class VoteComponent {
     voteIndex: number;
     helper: Helper;
 
+    // dependency injection
     constructor(private voteService: VoteService) {
         this.resetVote();
 

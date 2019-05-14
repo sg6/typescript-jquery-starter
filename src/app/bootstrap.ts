@@ -6,6 +6,7 @@ export class App {
     voteComponent: VoteComponent;
 
     constructor() {
+        // register components in app
         this.voteComponent = new VoteComponent(new VoteService());
     }
 }
