@@ -1,5 +1,6 @@
 import { VoteService } from './vote/VoteService';
 import { VoteComponent } from './vote/VoteComponent';
+import { Injector } from '../util/DependencyInjection/Injector';
 
 export class App {
 
@@ -7,6 +8,6 @@ export class App {
 
     constructor() {
         // register components in app
-        this.voteComponent = new VoteComponent(new VoteService());
+        this.voteComponent = new VoteComponent(Injector.resolve<VoteService>(VoteService));
     }
 }
