@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:local": "webpack-dev-server --mode development",
-    "start:prod": "webpack-dev-server --mode production"
+    "start:prod": "webpack-dev-server --mode production",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
