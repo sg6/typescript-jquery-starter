@@ -17,9 +17,9 @@ It should just give an idea, how easy it is to write even extremely small apps i
 
 # Let's Get Ready
 
-`npm i`
+Run `yarn` (or `npm i`)
 
-`npm run start:local`
+When the packages are installed, run `yarn start:local` (or `npm run start:local`)
 
 --> Go to http://localhost:8080
 
