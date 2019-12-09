@@ -1,5 +1,5 @@
 import * as $ from 'jquery';
-import {VoteService} from './VoteService';
+import { VoteService } from './VoteService';
 import { Helper } from '../../util/common';
 
 export class VoteComponent {
