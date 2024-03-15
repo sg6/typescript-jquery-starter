@@ -1,4 +1,4 @@
-import * as $ from 'jquery';
+import $ from 'jquery';
 import { VoteService } from './VoteService';
 import { Helper } from '../../util/common';
 

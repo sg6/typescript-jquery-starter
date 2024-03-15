@@ -1,7 +1,9 @@
 # TypeScript jQuery Starter Project
 
-This projects is an example of how to use a simple jQuery app with TypeScript.
-Aside of TypeScript and jQuery we use webpack for bundling and make the app working for browsers.
+This projects is an example of how to use a simple jQuery app with TypeScript.  
+Aside of TypeScript and jQuery we use vite for bundling and make the app working for browsers.
+
+This project is backend friendly, which means it is configured to be used everywhere, not only for frontend-focused applications.
 
 ## Structure
 
@@ -19,7 +21,7 @@ It should just give an idea, how easy it is to write even extremely small apps i
 
 Run `yarn` (or `npm i`)
 
-When the packages are installed, run `yarn start:local` (or `npm run start:local`)
+When the packages are installed, run `yarn start` (or `npm start`)
 
 --> Go to http://localhost:8080
 

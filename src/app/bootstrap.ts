@@ -3,7 +3,6 @@ import { VoteComponent } from './vote/VoteComponent';
 import { Injector } from '../util/DependencyInjection/Injector';
 
 export class App {
-
     voteComponent: VoteComponent;
 
     constructor() {
